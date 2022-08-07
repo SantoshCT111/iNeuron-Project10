@@ -1,0 +1,159 @@
+body {
+    background: url(../retro-living-room-interior-design.jpg);
+    background-size: 100vw 100vh;
+    color: white;
+    padding: 0px 40px;
+    font-family: Montserrat;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    margin-left: 40px;
+}
+.nav-items {
+    display: flex;
+    font-size: 22px;
+    margin-left: 30vw;
+    align-items: center;
+
+
+}
+.contact-detail img {
+    height: 28px;
+    
+    padding-left: 20px;
+}
+.contact-detail h1 {
+    font-size: 18px;
+}
+.contact-detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ 
+    
+}
+
+.main {
+    display: flex;
+    height: 80vh;
+    
+}
+.left {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 50vw;
+}
+.left h1 {
+    font-size: 60px;
+}
+.left button {
+    width: 280px;
+    align-self: flex-start;
+    height: 80px;
+    background: none;
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.right {
+    width: 40vw;
+    
+}
+.icon1 {
+    background-color:  rgba(255, 255, 255, 0.148);
+    height: 20vh;
+    width: 20vw;
+
+    position: relative;
+    padding-left: 30px;
+    margin-left: 15vw;
+    margin-top: 10vh;
+  
+    
+
+}
+.icon1 img {
+    width: 240px;
+    margin-bottom: 0;
+}
+.icon1 h3 {
+    position: absolute;
+    top: 60px;
+
+}
+.upper-right {
+    height: 40vh;
+    position: relative;
+}
+.lower-right {
+    position: relative;
+
+}
+.icon2{
+    background-color:  rgba(255, 255, 255, 0.198);
+    height: 20vh;
+    width: 20vw;
+
+    position: relative;
+    padding-left: 30px;
+    margin-right: 15vw;
+    margin-top: 2vh;
+}
+.icon2 h3 {
+  
+position: absolute;
+top: 60px;
+    
+    
+}
+.icon2 img {
+    width: 220px;
+    margin-left: -80px;
+}
+.line1 {
+    height: 10vh;
+    border: 1px solid white;
+    width: 0;
+    position: absolute;
+    right: 10vw;
+
+}
+.circle1 {
+    height: 20px;
+    border: 1px solid white;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7vh;
+    right: 9.25vw;
+}
+.line2 {
+    height: 0px;
+    border: 1px solid white;
+    width: 8vw;
+    position: absolute;
+    top: 50%;
+    right: 9.77vw;
+
+
+}
+.circle2 {
+    height: 20px;
+    border: 1px solid white;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 44%;
+    right:8.18vw ;
+  
+
+}
