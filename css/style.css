@@ -6,6 +6,10 @@ body {
     font-family: Montserrat;
    
 }
+
+.bar {
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -156,4 +160,50 @@ top: 60px;
     right:8.18vw ;
   
 
+}
+@media screen and  (max-width:1200px){
+    .nav-items {
+        display: none;
+    }
+    .contact-detail {
+        display: none;
+    }
+    .bar {
+        display: block;
+        width: 36px;
+        align-self: center;
+    }.bar img {
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(236deg) brightness(108%) contrast(100%);
+    }
+    body {
+       background-size: auto;
+       height: 100%;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .line1 ,.line2 ,.circle1,.circle2 {
+        display: none;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 80px;
+
+    }
+    .upper-right,.lower-right {
+        position: relative;
+        width: 100%;
+
+       
+    }
+    .icon1,.icon2 {
+        width: 65%;
+
+        
+    }
+    
 }
